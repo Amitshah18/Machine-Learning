@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load dataset
-data = pd.read_csv("C:/Users/cools/Desktop/ML ass/iris.csv")
+data = pd.read_csv("iris.csv")
 X = data.drop('species', axis=1).values
 y = data['species'].values
 
