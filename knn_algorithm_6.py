@@ -7,7 +7,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import confusion_matrix, accuracy_score, classification_report, f1_score
 
 
-file_path = "C:/Users/as313/OneDrive/Desktop/Machine Learning -College/teleCust.csv"
+file_path = "teleCust.csv"
 df = pd.read_csv(file_path)
 
 print(df.head())

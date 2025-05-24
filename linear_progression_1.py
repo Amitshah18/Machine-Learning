@@ -7,8 +7,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score 
 
 
-fuel_data = pd.read_csv("C:/Users/as313/OneDrive/Desktop/Machine Learning -College/fuel_consumption_dataset.csv")
-cars_data = pd.read_csv("C:/Users/as313/OneDrive/Desktop/Machine Learning -College/used_cars_dataset.csv")
+fuel_data = pd.read_csv("fuel_consumption_dataset.csv")
+cars_data = pd.read_csv("used_cars_dataset.csv")
 print("Fuel Consumption Dataset:\n", fuel_data.head(), "\n")
 print("Used Cars Dataset:\n", cars_data.head(), "\n")
 
